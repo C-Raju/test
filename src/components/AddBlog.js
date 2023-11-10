@@ -11,7 +11,7 @@ const AddBlog = () => {
 
   const handleAddBlog = async () => {
     try {
-      const response = await fetch(`https://mern-zeta-rouge.vercel.app/blog/add`, {
+      const response = await fetch(`https://mern-1xrisztsn-c-raju.vercel.app/blog/add`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
