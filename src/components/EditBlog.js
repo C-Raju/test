@@ -39,7 +39,7 @@ const EditBlog = () => {
   const handleEdit = async () => {
     try {
       const response = await fetch(
-        `https://mern-zeta-rouge.vercel.app/blog/edit/${params?.id}`,
+        `https://mern-1xrisztsn-c-raju.vercel.app/blog/edit/${params?.id}`,
         {
           method: "PUT",
           headers: {
