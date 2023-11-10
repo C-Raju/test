@@ -7,7 +7,7 @@ const ListBlogs = () => {
   useEffect(() => {
     (async () => {
       try {
-        const response = await fetch("https://mern-zeta-rouge.vercel.app/blog/all", {
+        const response = await fetch("https://mern-1xrisztsn-c-raju.vercel.app/blog/all", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -24,7 +24,7 @@ const ListBlogs = () => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`https://mern-zeta-rouge.vercel.app/blog/delete/${id}`, {
+      const response = await fetch(`https://mern-1xrisztsn-c-raju.vercel.app/blog/delete/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
