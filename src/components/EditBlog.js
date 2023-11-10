@@ -11,7 +11,7 @@ const EditBlog = () => {
     (async () => {
       try {
         const response = await fetch(
-          `https://mern-zeta-rouge.vercel.app/blog/get/${params?.id}`,
+          `https://mern-1xrisztsn-c-raju.vercel.app/blog/get/${params?.id}`,
           {
             method: "GET",
             headers: {
